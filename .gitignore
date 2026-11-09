@@ -1,0 +1,14 @@
+# Paquete portable generado por build_portable.py
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editores y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

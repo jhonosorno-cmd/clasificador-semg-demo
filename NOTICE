@@ -1,0 +1,23 @@
+Demo — Clasificador sEMG
+Copyright 2026 Jhon Alexander Osorno Pacheco
+
+Este producto se distribuye bajo la Licencia Apache, versión 2.0 (ver LICENSE).
+Es la aplicación de demostración del repositorio principal:
+https://github.com/jhonosorno-cmd/clasificador-semg
+
+NOTA SOBRE LOS DATOS
+
+La licencia cubre únicamente el código de este repositorio.
+
+El archivo data/demo_cache.npz contiene ventanas de EMG derivadas de NinaPro DB3
+(sujeto 1, repetición 6), filtradas y normalizadas. NinaPro DB3 se obtiene de
+https://ninapro.hevs.ch/ bajo los términos de sus autores y debe citarse:
+
+  Atzori, M. et al. (2014). Electromyography data for non-invasive
+  naturally-controlled robotic hand prostheses. Scientific Data, 1, 140053.
+  https://doi.org/10.1038/sdata.2014.53
+
+TIPOGRAFÍAS
+
+assets/fonts.css embebe Fira Sans y Fira Code, distribuidas bajo la SIL Open Font
+License 1.1 (https://openfontlicense.org/).

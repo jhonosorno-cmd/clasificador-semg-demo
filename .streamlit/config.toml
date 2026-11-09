@@ -1,0 +1,22 @@
+[browser]
+# Sin telemetria: evita la peticion de red al arrancar (sala sin internet).
+gatherUsageStats = false
+
+[server]
+headless = true
+port = 8501
+fileWatcherType = "none"
+
+[runner]
+magicEnabled = false
+
+[theme]
+base = "dark"
+primaryColor = "#8ab4f8"
+backgroundColor = "#0e1117"
+secondaryBackgroundColor = "#161a23"
+textColor = "#e8eaed"
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = true

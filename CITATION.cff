@@ -1,0 +1,71 @@
+cff-version: 1.2.0
+message: "Si usa esta demo o sus resultados, por favor cite el trabajo de grado."
+title: "Demo — Clasificador sEMG"
+abstract: >-
+  Demostración interactiva en Streamlit del ensemble de cuatro modelos CyborgHybrid
+  para la clasificación de siete clases (reposo y seis gestos de mano) en personas
+  con amputación transradial, evaluado sobre NinaPro DB3.
+type: software
+authors:
+  - family-names: "Osorno Pacheco"
+    given-names: "Jhon Alexander"
+    affiliation: "Universidad del Valle, Escuela de Ingeniería Eléctrica y Electrónica"
+license: Apache-2.0
+repository-code: "https://github.com/jhonosorno-cmd/clasificador-semg-demo"
+keywords:
+  - electromiografía
+  - sEMG
+  - NinaPro
+  - Streamlit
+  - prótesis mioeléctrica
+
+preferred-citation:
+  type: thesis
+  title: >-
+    Desarrollo de un sistema de clasificación de movimientos de la mano en personas
+    con amputación de miembro superior usando aprendizaje profundo sobre señales
+    mioeléctricas
+  authors:
+    - family-names: "Osorno Pacheco"
+      given-names: "Jhon Alexander"
+  thesis-type: "Trabajo de grado, Ingeniería Electrónica"
+  institution:
+    name: "Universidad del Valle"
+  address: "Cali, Colombia"
+  year: 2026
+
+references:
+  - type: software
+    title: "Clasificador sEMG: reconocimiento de gestos de mano en amputados transradiales"
+    authors:
+      - family-names: "Osorno Pacheco"
+        given-names: "Jhon Alexander"
+    repository-code: "https://github.com/jhonosorno-cmd/clasificador-semg"
+    license: Apache-2.0
+  - type: article
+    title: >-
+      Electromyography data for non-invasive naturally-controlled robotic hand
+      prostheses
+    authors:
+      - family-names: "Atzori"
+        given-names: "Manfredo"
+      - family-names: "Gijsberts"
+        given-names: "Arjan"
+      - family-names: "Castellini"
+        given-names: "Claudio"
+      - family-names: "Caputo"
+        given-names: "Barbara"
+      - family-names: "Hager"
+        given-names: "Anne-Gabrielle Mittaz"
+      - family-names: "Elsig"
+        given-names: "Simone"
+      - family-names: "Giatsidis"
+        given-names: "Giorgio"
+      - family-names: "Bassetto"
+        given-names: "Franco"
+      - family-names: "Müller"
+        given-names: "Henning"
+    journal: "Scientific Data"
+    volume: 1
+    year: 2014
+    doi: "10.1038/sdata.2014.53"

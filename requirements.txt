@@ -1,0 +1,17 @@
+# Dependencias de la demo (demo_app.py).
+#
+# Deliberadamente NO incluye PyTorch. La demo detecta su ausencia y opera con las
+# probabilidades precomputadas de data/demo_cache.npz, lo que reduce el despliegue
+# de ~250 MB a ~20 MB y elimina los tiempos de arranque en frío.
+#
+# Para habilitar la inferencia en vivo con los cuatro modelos de checkpoints/demo/,
+# añadir:  torch>=2.0.0
+#
+# Uso local:   pip install -r requirements.txt && streamlit run demo_app.py
+# Despliegue:  este es el archivo que debe apuntarse desde Streamlit Community Cloud.
+
+streamlit>=1.28.0
+numpy>=1.21.0
+pandas>=1.3.0
+plotly>=5.18.0
+scikit-learn>=1.0.0
