@@ -7,7 +7,7 @@
 # Para habilitar la inferencia en vivo con los cuatro modelos de checkpoints/demo/,
 # añadir:  torch>=2.0.0
 #
-# Uso local:   pip install -r requirements.txt && streamlit run demo_app.py
+# Uso local:   python -m pip install -r requirements.txt && python -m streamlit run demo_app.py
 # Despliegue:  este es el archivo que debe apuntarse desde Streamlit Community Cloud.
 
 streamlit>=1.28.0

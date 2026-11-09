@@ -9,7 +9,7 @@ necesita `data/raw/` para arrancar. La inferencia de la ventana visible si se
 ejecuta en vivo sobre los 4 modelos cuando PyTorch esta disponible.
 
 Ejecutar desde la raiz del proyecto:
-    streamlit run demo_app.py
+    python -m streamlit run demo_app.py
 """
 
 from __future__ import annotations

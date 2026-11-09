@@ -13,9 +13,12 @@ Universidad del Valle (Cali, Colombia).
 ## Ejecutar
 
 ```bash
-pip install -r requirements.txt
-streamlit run demo_app.py
+python -m pip install -r requirements.txt
+python -m streamlit run demo_app.py
 ```
+
+`python -m streamlit` funciona aunque el comando `streamlit` no esté en el PATH
+(frecuente en Windows con el Python de la Microsoft Store).
 
 La demo lee `data/demo_cache.npz` (3,7 MB), que contiene el conjunto de prueba ya
 preprocesado junto con las probabilidades de los cuatro modelos del ensemble.
